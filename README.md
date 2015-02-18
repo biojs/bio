@@ -25,3 +25,8 @@ npm install bio
 ```
 
 [![NPM](https://nodei.co/npm/bio.png)](https://nodei.co/npm/bio/)
+
+Play online
+-----------
+
+You use a [JSBin](http://jsbin.com/jivome/2/edit?js,console,output).
