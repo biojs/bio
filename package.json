@@ -15,7 +15,7 @@
     "biojs-io-blast": "0.x",
     "biojs-io-clustal": "0.x",
     "biojs-io-fasta": "0.x",
-    "biojs-io-newick": "0.x",
+    "biojs-io-newick": "1.x",
     "biojs-rest-ensembl": "0.0.3",
     "biojs-rest-jsdas": "0.0.4",
     "bionode-bwa": "0.0.9",
