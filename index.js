@@ -5,7 +5,7 @@ module.exports = {
   das: 'biojs-rest-jsdas',
   ensembl: 'biojs-rest-ensembl',
   // fasta: 'bionode-fasta',
-  ncbi: 'bionode-ncbi',
+  //  ncbi: 'bionode-ncbi',
   newick: 'biojs-io-newick',
   sam: 'bionode-sam',
   seq: 'bionode-seq',
