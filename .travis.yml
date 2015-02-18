@@ -5,7 +5,7 @@ deploy:
   provider: s3
   access_key_id: AKIAJ7SXC23CS2USONIA
   secret_access_key:
-    secure: GdaaJcZesB66rHXoo02hJwnqRztzdYPX2YwN0xWM827YPo6JoyCLpb5kCNTAjiU/SE6BCrYDi+sbgIMAVPC8YIpBRG1gpAgOicWJsLkwv44VsOQBPI49/nvY+v+5xWqtthO8leGEji570whnZrMIna3WO4F/YmkksChCsEJrPXY=
+    secure: bdxa1ccX7sk9AzilOQx5IAVsCutMkOmZx6kapqrCu25qRkyEdMy+mYYLTwPzsj02Wyzx7zNmlRLASLYwmxOqFEYJCjrRIZr359AoYeQNExj3QJMyA8BOgPGvGAOCFnIaHeZvfa1R2sNm62P8EyTmYE6ECE7FN+c3j/uiyR+hQoE=
   bucket: biojs
   upload-dir: bio/latest
   acl: public-read
