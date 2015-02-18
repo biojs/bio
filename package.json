@@ -1,0 +1,59 @@
+{
+  "name": "bio",
+  "description": "Meta package for bio parser",
+  "version": "0.0.2",
+  "homepage": "http://github.com/biojs/bio",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biojs/bio"
+  },
+  "author": {
+    "name": "BioJS",
+    "email": "biojs-technical@googlegroups.com"
+  },
+  "dependencies": {
+    "biojs-io-blast": "0.x",
+    "biojs-io-clustal": "0.x",
+    "biojs-io-fasta": "0.x",
+    "biojs-io-newick": "0.x",
+    "biojs-rest-ensembl": "0.0.3",
+    "biojs-rest-jsdas": "0.0.4",
+    "bionode-bwa": "0.0.9",
+    "bionode-fasta": "^0.4.2",
+    "bionode-ncbi": "^1.0.2",
+    "bionode-sam": "^1.0.1",
+    "bionode-seq": "^0.1.1",
+    "bionode-sra": "^1.0.1",
+    "lodash": "^3.2.0",
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "del": "^1.1.1",
+    "gulp": "^3.8.7",
+    "gulp-browserify": "^0.5.0",
+    "gulp-chmod": "^1.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-gzip": "0.0.8",
+    "gulp-rename": "^1.2.0",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^0.3.1",
+    "gulp-watch": "^4.1.1",
+    "mkdirp": "^0.5.0",
+    "shelljs": "^0.3.0",
+    "uglify-js": "~2.4.15",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.3.0"
+  },
+  "keywords": [
+    "bio",
+    "meta",
+    "parser"
+  ],
+  "main": "./export.js",
+  "scripts": {
+    "prepublish": "node_modules/gulp/bin/gulp.js build",
+    "build-browser": "node_modules/gulp/bin/gulp.js build"
+  },
+  "license": "Apache 2"
+}
