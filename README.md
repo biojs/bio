@@ -18,7 +18,7 @@ Yes you can either link to the minified, gzipped CDN version or download the dev
 [![Min version](http://img.shields.io/badge/prod-latest-blue.svg)](https://cdn.biojs.net/bio/latest/bio.min.gz.js)  
 [![Dev version](http://img.shields.io/badge/dev-latest-yellow.svg)](https://s3-eu-west-1.amazonaws.com/biojs/bio/latest/bio.js)
 
-You can also [browse for old version](http://biojs.s3-website-eu-west-1.amazonaws.com/bio/)
+You can also [browse for old versions](http://biojs.s3-website-eu-west-1.amazonaws.com/bio/)
 
 ```
 npm install bio
