@@ -15,7 +15,7 @@ bio
 
 Yes you can either link to the minified, gzipped CDN version or download the dev version from S3 .
 
-[![Min version](http://img.shields.io/badge/prod-3kB-blue.svg)](https://cdn.biojs.net/bio/latest/bio.min.gz.js)
+[![Min version](http://img.shields.io/badge/prod-latest-blue.svg)](https://cdn.biojs.net/bio/latest/bio.min.gz.js)  
 [![Dev version](http://img.shields.io/badge/dev-latest-yellow.svg)](https://s3-eu-west-1.amazonaws.com/biojs/bio/latest/bio.js)
 
 You can also [browse for old version](http://biojs.s3-website-eu-west-1.amazonaws.com/bio/)
