@@ -23,3 +23,5 @@ You can also [browse for old versions](http://biojs.s3-website-eu-west-1.amazona
 ```
 npm install bio
 ```
+
+[![NPM](https://nodei.co/npm/bio.png)](https://nodei.co/npm/bio/)
