@@ -1,7 +1,7 @@
 {
   "name": "bio",
   "description": "Meta package for bio parser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://github.com/biojs/bio",
   "repository": {
     "type": "git",
@@ -51,6 +51,9 @@
     "parser"
   ],
   "main": "./export.js",
+  "bin": {
+    "bio": "cli.js"
+  },
   "scripts": {
     "prepublish": "node_modules/gulp/bin/gulp.js build",
     "build-browser": "node_modules/gulp/bin/gulp.js build"
