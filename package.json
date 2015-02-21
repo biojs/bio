@@ -1,7 +1,7 @@
 {
   "name": "bio",
   "description": "Meta package for bio parser",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "http://github.com/biojs/bio",
   "repository": {
     "type": "git",
@@ -47,6 +47,7 @@
   },
   "keywords": [
     "bio",
+    "biojs",
     "meta",
     "parser"
   ],
