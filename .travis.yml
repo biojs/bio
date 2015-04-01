@@ -3,14 +3,14 @@ node_js:
 - '0.10'
 deploy:
   provider: s3
-  access_key_id: AKIAJ7SXC23CS2USONIA
-  secret_access_key:
-    secure: bdxa1ccX7sk9AzilOQx5IAVsCutMkOmZx6kapqrCu25qRkyEdMy+mYYLTwPzsj02Wyzx7zNmlRLASLYwmxOqFEYJCjrRIZr359AoYeQNExj3QJMyA8BOgPGvGAOCFnIaHeZvfa1R2sNm62P8EyTmYE6ECE7FN+c3j/uiyR+hQoE=
+  access_key_id: AKIAIUBRKBVSD3LAFBUQ
+  secret_access_key: 
+    secure: NWOlbiOAVFHcWEaK/G6j7BZiqotx6/U5EMlaK2xkMNn/ZZ27I504EJoDKJHBU5Ar3EAqp3hHmR5wCC07DAOi20zdL8vyh5nBZyQSKjFxsiSxgoRsrxmLcTbdKfpEnhU7cEhkuG15Qt7NIg7ZwtN7GCyhZCu4Dd1d8RiV0efFf+E=
   bucket: biojs
   upload-dir: bio/latest
   acl: public-read
-  detect_encoding: true # allow compressed uploads
+  detect_encoding: true
   skip_cleanup: true
   local-dir: build
   on:
-      repo: biojs/bio
+    repo: biojs/bio
